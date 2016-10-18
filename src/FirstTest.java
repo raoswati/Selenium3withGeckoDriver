@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
- * Created by swati on 17/10/16.
+ * Created by swati on 18/10/16.
  */
 
 public class FirstTest {
@@ -35,7 +35,7 @@ public class FirstTest {
         }
         String pageSource = driver.getPageSource();
         int pageSourceLength = pageSource.length();
-        System.out.println("Total length of the Pgae Source is : " + pageSourceLength);
+        System.out.println("Total length of the Page Source is : " + pageSourceLength);
         driver.close();
     }
 }
